@@ -4,7 +4,7 @@ Esse projeto foi criado como objetivo de servir de portifólio e para a apresent
 
 ## Status
 
-O projeto não foi sequer iniciado, o que está no git hub é apenas o setup do projeto.
+O projeto não foi sequer iniciado, oque está no git hub é apenas o setup do projeto.
 
 ## Instalação
 
