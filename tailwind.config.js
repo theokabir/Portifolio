@@ -26,6 +26,8 @@ module.exports = {
       indigo: colors.indigo,
       purple: colors.violet,
       pink: colors.pink,
+      blueGray: colors.blueGray,
+      coolGray: colors.coolGray
     },
     spacing: {
       px: '1px',
@@ -239,6 +241,7 @@ module.exports = {
       DEFAULT: '1',
     },
     fontFamily: {
+      page: ['Nunito'],
       sans: [
         'ui-sans-serif',
         'system-ui',

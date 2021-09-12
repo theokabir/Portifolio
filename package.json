@@ -9,6 +9,7 @@
     "@fortawesome/free-regular-svg-icons": "^5.15.4",
     "@fortawesome/free-solid-svg-icons": "^5.15.4",
     "@fortawesome/react-fontawesome": "^0.1.15",
+    "@iconify/icons-simple-icons": "^1.1.41",
     "@testing-library/jest-dom": "^5.11.4",
     "@testing-library/react": "^11.1.0",
     "@testing-library/user-event": "^12.1.10",
@@ -44,6 +45,9 @@
     ]
   },
   "devDependencies": {
+    "@iconify/icons-akar-icons": "^1.1.23",
+    "@iconify/icons-cib": "^1.1.0",
+    "@iconify/react": "^3.0.1",
     "autoprefixer": "^9.8.6",
     "postcss": "^7.0.36",
     "tailwindcss": "npm:@tailwindcss/postcss7-compat@^2.2.14"
