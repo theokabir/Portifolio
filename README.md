@@ -22,4 +22,4 @@ Caso queira instalar o projeto na sua própria máquina, siga os seguintes passo
 
 ## prints
 
-![home screen shot, no content](readmeImages/noContentHome.png)
+![home screen shot, no content](https://imgur.com/UaIhQY6)
