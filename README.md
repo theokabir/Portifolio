@@ -22,4 +22,4 @@ Caso queira instalar o projeto na sua própria máquina, siga os seguintes passo
 
 ## prints
 
-Ainda não há prints do projeto.
+![home screen shot, no content](readmeImages/noContentHome.png)
