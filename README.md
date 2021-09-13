@@ -22,4 +22,12 @@ Caso queira instalar o projeto na sua própria máquina, siga os seguintes passo
 
 ## prints
 
-![home screen shot, no content](https://i.imgur.com/UaIhQY6.png)
+### Home page
+
+![home screen shot](https://i.imgur.com/xigrqDd.png)
+
+![home screenshot, technologie icons](https://i.imgur.com/OO1Vn2X.png)
+
+### Resume Page (Skretch)
+
+![resume screenshot, skretch](https://i.imgur.com/XF2Pssu.png)
