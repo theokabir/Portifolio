@@ -5,6 +5,7 @@ import Home from './pages/home'
 import Resume from './pages/resume'
 import NotFound from './pages/404'
 import Navbar from './components/Navbar'
+import Footer from './components/Footer'
 import { lang } from './lang/lang'
 import './index.css'
 
@@ -37,11 +38,12 @@ function App() {
               <Home language={language} en={true} setLanguage={changeLang} />
             </Route>
             <Route path="/">
-              <NotFound />
+              <NotFound language={language} />
             </Route>
           </Switch>
         </AnimatePresence>
       </div>
+      <Footer />
     </Router>
   );
 }

@@ -60,7 +60,6 @@ const Navbar = ({ language, setLanguage }) => {
         sm:hidden
         "/>
       </h1>
-      {/* TODO: Melhorar sistema de drop down do menu com framer-motion */}
       <div className="sm:hidden">
         <AnimatePresence>
           {navDropped && (

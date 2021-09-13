@@ -17,8 +17,8 @@ export default function NavList({ language, vMenu, vBtn, overflowClass, lanChang
       <ul
       className="
       text-xl
-      flex justify-around
-      sm:flex
+      justify-around
+      flex flex-col sm:flex-row items-center
       mt-8 sm:mt-0
       ">
         <motion.li
@@ -28,13 +28,13 @@ export default function NavList({ language, vMenu, vBtn, overflowClass, lanChang
           <Link to="/">{language.navbar.home}</Link>
         </motion.li>
 
-        <motion.li className="pl-6"
+        <motion.li className="sm:pl-6 pt-2 sm:pt-0"
         variants={vBtn}
         whileHover="hover"
         >
           <Link to="/resume">{language.navbar.resume}</Link>
         </motion.li>
-        <motion.li className="pl-6"
+        <motion.li className="sm:pl-6 pt-2 sm:pt-0"
         variants={vBtn}
         whileHover="hover"
         >

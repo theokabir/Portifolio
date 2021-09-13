@@ -4,6 +4,23 @@
 @tailwind components;
 @tailwind utilities;
 
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: #0F172A;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #22343B; 
+  border-radius: 10px;
+}
+
+body{
+    @apply bg-blueGray-800;
+}
+
 .btn-tech-hover{
     @apply  transform hover:scale-110 transition duration-75 ease-out
     mx-auto my-4
