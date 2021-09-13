@@ -6,7 +6,7 @@ import reactIcon from '@iconify/icons-cib/react'
 
 export default function TechOptions({infoChange}) {
   return (
-    <div class="grid grid-cols-4 md:grid-cols-1">
+    <div class="grid grid-cols-4 ">
 
       <div className="text-6xl sm:text-8xl" onClick={ e => infoChange(e, "react") }>
         <Icon className="hover:text-blue-600 btn-tech-hover" icon={reactIcon} />

@@ -2,19 +2,19 @@ import { motion } from 'framer-motion'
 import Space from './../../assets/space_wpp.jpg'
 
 
-export default function Parallax(){
+export default function Parallax({ language }){
   return(
     <div
     className="
     relative flex items-center justify-center
-    bg-cover bg-fixed bg-center bg-no-repeat
+    bg-cover bg-fixed bg-center bg-no-repeat bg-black
     "
     style={{
       backgroundImage: `url(${Space})`,
       height: "80vh"
     }}
     >
-      <motion.div className="text-white text-5xl sm:text-6xl font-page"
+      <motion.div className="text-white font-page text-center"
       initial={{
         opacity: 0,
         scale: 1.2
@@ -29,7 +29,8 @@ export default function Parallax(){
         ease: "easeInOut"
       }}
       >
-        <h2>Lorem Ipsum</h2>
+        <h2 className="text-5xl sm:text-6xl">{language.home.parallax.title}</h2>
+        <p className="text-md mt-8 w-full m-0">{language.home.parallax.text}</p>
       </motion.div>
     </div>
   )

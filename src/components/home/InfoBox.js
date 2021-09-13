@@ -28,9 +28,10 @@ export default function InfoBox({content, bg}) {
     exit="exit"
     >
       <div className={`
-      h-full w-full ${bg && "bg-yellow-200"} 
+      h-full w-full md:w-9/12 m-auto ${bg && "bg-yellow-400"} 
       rounded-xl p-6 text-center
-      flex flex-col justify-center overflow-y-auto
+      flex flex-col justify-center
+      overflow-hidden
       `} >
 
         <h2 className={` text-3xl sm:text-6xl sm:mt-12  font-semibold ${!bg && "text-white"}`}>{content.title}</h2>

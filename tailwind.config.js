@@ -27,7 +27,8 @@ module.exports = {
       purple: colors.violet,
       pink: colors.pink,
       blueGray: colors.blueGray,
-      coolGray: colors.coolGray
+      coolGray: colors.coolGray,
+      orange: colors.orange
     },
     spacing: {
       px: '1px',
@@ -65,6 +66,7 @@ module.exports = {
       72: '18rem',
       80: '20rem',
       96: '24rem',
+      "card": "450px",
     },
     animation: {
       none: 'none',

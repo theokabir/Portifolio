@@ -12,6 +12,10 @@ export const lang = {
     },
     home: {
       title1: "Principais tecnologias",
+      parallax: {
+        title: "Oi, sou Théo Kabir",
+        text: "Esse site foi criado como apresentação de minhas habilidades, competencias e currículo",
+      },
       noInfo: {
         title: "Programação",
         content: "Clique nos ícones das tecnologias para mais detalhes"
@@ -54,6 +58,10 @@ export const lang = {
     },
     home: {
       title1: "Main Technologies",
+      parallax: {
+        title: "Hi, I'm Théo Kabir",
+        text: "This site was created as a presentation of my skills, competences and resume",
+      },
       noInfo: {
         title: "Programming",
         content: "Click on technology icons for more details."

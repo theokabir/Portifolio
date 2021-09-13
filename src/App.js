@@ -32,7 +32,7 @@ function App() {
               <Home language={language}/>
             </Route>
             <Route path="/resume">
-              <Resume />
+              <Resume language={language} />
             </Route>
             <Route path="/en">
               <Home language={language} en={true} setLanguage={changeLang} />
