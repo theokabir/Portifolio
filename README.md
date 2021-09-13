@@ -4,7 +4,9 @@ Esse projeto foi criado como objetivo de servir de portifólio e para a apresent
 
 ## Status
 
-página home quase completa, falta parte da estilização e da adição de uma linguagem compilada, provavelmente c++ ou java
+A página home está completa, apenas com alguns textos que devem ser melhorados. Com o tempo virá a adição de uma linguagem compilada como C++, Java ou Rust.
+
+A página de currículo de encontra apenas com parte do conteúdo, sem estilização, animação ou detalhamento, apenas o esboço.
 
 ## Instalação
 
