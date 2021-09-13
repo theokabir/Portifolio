@@ -4,7 +4,7 @@ Esse projeto foi criado como objetivo de servir de portifólio e para a apresent
 
 ## Status
 
-a página home e a navbar já está completamente funcional, ainda falta o rodapé e a página de currículo, além do conteúdo
+página home quase completa, falta parte da estilização e da adição de uma linguagem compilada, provavelmente c++ ou java
 
 ## Instalação
 
