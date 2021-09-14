@@ -3,7 +3,7 @@ export default function Body({ language }){
     <div className="md:col-span-2 p-4">
       <div>
         <h4 className="text-xl underline mb-2">Sobre mim</h4>
-        <p style={{textIndent: 20}} >Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam veniam similique nulla! Assumenda officiis inventore alias cupiditate rerum natus obcaecati repellat minima ipsam ex distinctio veritatis, porro tempore ipsa ad? Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque, architecto officia ut veritatis labore ab amet esse distinctio illum totam excepturi possimus dolorum, nihil eius, iste praesentium quaerat vel. Omnis. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nesciunt quas voluptas, rerum reiciendis impedit excepturi asperiores dignissimos veritatis aspernatur officia, possimus deleniti, et harum illum similique sed vero eum facere.</p>
+        <p style={{textIndent: 20}} className="text-justify">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam veniam similique nulla! Assumenda officiis inventore alias cupiditate rerum natus obcaecati repellat minima ipsam ex distinctio veritatis, porro tempore ipsa ad? Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque, architecto officia ut veritatis labore ab amet esse distinctio illum totam excepturi possimus dolorum, nihil eius, iste praesentium quaerat vel. Omnis. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nesciunt quas voluptas, rerum reiciendis impedit excepturi asperiores dignissimos veritatis aspernatur officia, possimus deleniti, et harum illum similique sed vero eum facere.</p>
       </div>
       <div>
         <h4 className="text-xl underline mt-4 mb-2">Experiência proficional</h4>

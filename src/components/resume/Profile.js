@@ -2,7 +2,7 @@ import profilePic from '../../assets/profile.png'
 
 export default function Profile({ language }){
   return (
-    <div className="md:col-span-1 md:border-r p-4 border-white">
+    <div className="md:col-span-1 border-b md:border-b-0 md:border-r p-4 border-white">
       <div className="w-32 h-32 rounded-full overflow-hidden m-auto">
         <img src={profilePic} alt="Minha imagen" className="object-cover" />
       </div>
