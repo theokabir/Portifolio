@@ -43,7 +43,11 @@ export const lang = {
         <br />
         você será redirecionado para a página inicial em estantes
       </p>
-    )
+    ),
+    footer: {
+      by: "por",
+      contact: "contato"
+    }
   },
 
   enUS: {
@@ -89,7 +93,11 @@ export const lang = {
         <br />
         You will be redirected to the home page on shelves
       </p>
-    )
+    ),
+    footer: {
+      by: "by",
+      contact: "contact"
+    }
   },
 
 }

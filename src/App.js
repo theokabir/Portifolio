@@ -43,7 +43,7 @@ function App() {
           </Switch>
         </AnimatePresence>
       </div>
-      <Footer />
+      <Footer language={language} />
     </Router>
   );
 }
