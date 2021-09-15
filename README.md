@@ -32,4 +32,4 @@ Caso queira instalar o projeto na sua própria máquina, siga os seguintes passo
 
 ### Resume Page (Skretch)
 
-![resume screenshot, skretch](https://i.imgur.com/XF2Pssu.png)
+![resume screenshot, skretch](https://i.imgur.com/Be5PFEv.png)
