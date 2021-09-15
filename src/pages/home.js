@@ -29,7 +29,7 @@ const Home = ({ language, en, setLanguage }) => {
   }, []);
 
   return ( 
-    <div className="font-page">
+    <div className="font-page mb-4">
 
       <div className="overflow-hidden">
         <Parallax language={language} />
@@ -51,9 +51,9 @@ const Home = ({ language, en, setLanguage }) => {
 
           <div className="overflow-hidden">
 
-            <AnimatePresence exitBeforeEnter>
+            <div className="h-96 md:h-card">
+              <AnimatePresence exitBeforeEnter>
 
-              <div className="h-96 md:h-card">
                 {infoBox === "react" ? (
                   <InfoBox key="react" content={language.home.react || {title: "No Text"}} bg={true} />
                 ): infoBox === "next" ? (
@@ -65,9 +65,9 @@ const Home = ({ language, en, setLanguage }) => {
                 ):(
                   <InfoBox key="noInfo" content={language.home.noInfo || {title: "No Text"}} />
                 )}
-              </div>
 
-            </AnimatePresence>
+              </AnimatePresence>
+            </div>
 
           </div>
           

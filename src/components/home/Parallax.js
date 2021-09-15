@@ -29,7 +29,7 @@ export default function Parallax({ language }){
         ease: "easeInOut"
       }}
       >
-        <h2 className="text-5xl sm:text-6xl">{language.home.parallax.title}</h2>
+        <h2 className="text-5xl sm:text-6xl font-home font-light">{language.home.parallax.title}</h2>
         <p className="text-md mt-8 w-full m-0">{language.home.parallax.text}</p>
       </motion.div>
     </div>

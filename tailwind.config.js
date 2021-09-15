@@ -244,6 +244,8 @@ module.exports = {
     },
     fontFamily: {
       page: ['Nunito'],
+      home: ['Josefin Sans'],
+      titles: ['Spartan', 'Nunito'],
       sans: [
         'ui-sans-serif',
         'system-ui',
