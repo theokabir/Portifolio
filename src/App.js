@@ -2,6 +2,7 @@ import { useState} from 'react'
 import {BrowserRouter as Router, Switch, Route} from 'react-router-dom'
 import { AnimatePresence } from 'framer-motion'
 import Home from './pages/home'
+import HomeEn from './pages/homeEn'
 import Resume from './pages/resume'
 import NotFound from './pages/404'
 import Navbar from './components/Navbar'
@@ -35,7 +36,7 @@ function App() {
               <Resume language={language} />
             </Route>
             <Route path="/en">
-              <Home language={language} en={true} setLanguage={changeLang} />
+              <HomeEn setLanguage={changeLang} />
             </Route>
             <Route path="/">
               <NotFound language={language} />

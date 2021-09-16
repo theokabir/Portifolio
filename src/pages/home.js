@@ -26,7 +26,7 @@ const Home = ({ language, en, setLanguage }) => {
       setLanguage('en')
       history.push('/')
     }
-  }, []);
+  });
 
   return ( 
     <div className="font-page mb-4">
