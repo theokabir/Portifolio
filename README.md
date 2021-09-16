@@ -4,9 +4,9 @@ Esse projeto foi criado como objetivo de servir de portifólio e para a apresent
 
 ## Status
 
-A página home está completa, apenas com alguns textos que devem ser melhorados. Com o tempo virá a adição de uma linguagem compilada como C++, Java ou Rust.
+A página home está completa, apenas com alguns textos que devem ser melhorados. Com o tempo virá a adição de uma linguagem compilada como C++, Java, Rust ou Python.
 
-A página de currículo de encontra apenas com parte do conteúdo, sem estilização, animação ou detalhamento, apenas o esboço.
+A página de currículo se encontra programada porém sem o conteúdo em português ou inglês.
 
 ## Instalação
 
@@ -30,6 +30,6 @@ Caso queira instalar o projeto na sua própria máquina, siga os seguintes passo
 
 ![home screenshot, technologie icons](https://i.imgur.com/OO1Vn2X.png)
 
-### Resume Page (Skretch)
+### Resume Page
 
-![resume screenshot, skretch](https://i.imgur.com/Be5PFEv.png)
+![resume screenshot, skretch](https://i.imgur.com/S020Mqd.png)
