@@ -37,9 +37,9 @@ export default function Profile({ language }){
         </div>
       </motion.div>
       <motion.div variants={profVariant}>
-        <h4 className="font-titles">Escolaridade</h4>
+        <h4 className="font-titles">{language.resume.profile.education}</h4>
         <ul className="list-disc list-inside">
-          <li>Cursando Ensino médio técnico em desenvolvimento de sistemas na Etec da Zona Leste</li>
+          <li>{language.resume.profile.educationText}</li>
         </ul>
       </motion.div>
     </motion.div>

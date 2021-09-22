@@ -44,6 +44,16 @@ export const lang = {
         você será redirecionado para a página inicial em estantes
       </p>
     ),
+    resume: {
+      profile: {
+        education: "Educação",
+        educationText: "Cursando Ensino médio técnico em desenvolvimento de sistemas na Etec da Zona Leste"
+      },
+      body: {
+        about: "Sobre mim",
+        aboutText: ""
+      }
+    },
     footer: {
       by: "por",
       contact: "contato"
