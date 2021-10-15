@@ -36,22 +36,54 @@ const bodyVariant = {
 export default function Body({ language }){
   return(
     <motion.div className="md:col-span-2 p-4">
+      {/* Primeiras informações */}
       <motion.div variants={bodyVariant}>
-        <h4 className="text-xl mb-2 titles">Sobre mim</h4>
-        <p style={{textIndent: 20}} className="text-justify">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam veniam similique nulla! Assumenda officiis inventore alias cupiditate rerum natus obcaecati repellat minima ipsam ex distinctio veritatis, porro tempore ipsa ad? Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque, architecto officia ut veritatis labore ab amet esse distinctio illum totam excepturi possimus dolorum, nihil eius, iste praesentium quaerat vel. Omnis. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nesciunt quas voluptas, rerum reiciendis impedit excepturi asperiores dignissimos veritatis aspernatur officia, possimus deleniti, et harum illum similique sed vero eum facere.</p>
+        <h4 className="text-xl mb-2 titles">{language.resume.body.about}</h4>
+        <p style={{textIndent: 20}} className="text-justify">{language.resume.body.aboutText}</p>
       </motion.div>
       <motion.div variants={bodyVariant}>
-        <h4 className="text-xl mt-4 mb-2 titles">Experiência proficional</h4>
+        <h4 className="text-xl mt-4 mb-2 titles">{language.resume.body.experience.title}</h4>
         <ul className="list-disc list-inside">
-          <li>Nenhuma experiência profissional até o momento</li>
+          {language.resume.body.experience.arr.map(arr => (
+            <li>{arr}</li>
+          ))}
         </ul>
       </motion.div>
+
+      {/* Soft e Hard skills */}
+      <div className="md:grid grid-cols-2 justify-between mt-2">
+
+        {/* Hard skills */}
+        <motion.div variants={bodyVariant}>
+          <h4 className="titles text-xl">{language.resume.body.skills.hard.title}</h4>
+          <ul className="list-disc list-inside">
+            {language.resume.body.skills.hard.arr.map((skill) => 
+              <li>{skill}</li>
+            )}
+          </ul>
+
+        </motion.div>
+
+        {/* Soft Skils */}
+        <motion.div variants={bodyVariant}>
+          <h4 className="titles text-xl">{language.resume.body.skills.soft.title}</h4>
+          <ul className="list-disc list-inside">
+            {language.resume.body.skills.soft.arr.map((skill) => 
+              <li>{skill}</li>
+            )}
+          </ul>
+
+        </motion.div>
+
+      </div>
+
+      {/* Habilidades técnicas */}
       <div>
-        <motion.h4 className="text-xl mt-4 mb-2 titles" variants={bodyVariant}>Habilidades</motion.h4>
+        <motion.h4 className="text-xl mt-4 mb-2 titles" variants={bodyVariant}>{language.resume.body.skills.technic.title}</motion.h4>
         <div className="md:grid grid-cols-2 justify-between">
           <div>
             <motion.div variants={bodyVariant}>
-              <h5 className="titles">Tecnológicas</h5>
+              <h5 className="titles">{language.resume.body.skills.technic.technologies}</h5>
               <ul className="list-inside">
                 <li><Icon icon={html5Icon} inline={true} className="bodyIcon" />HTML 5</li>
                 <li><Icon icon={css3Icon} inline={true} className="bodyIcon" />CSS 3</li>
@@ -63,7 +95,7 @@ export default function Body({ language }){
               </ul>
             </motion.div>
             <motion.div variants={bodyVariant}>
-              <h5 className="titles">Básico</h5>
+              <h5 className="titles">{language.resume.body.skills.technic.basic}</h5>
               <ul className="list-inside">
                 <li><Icon icon={csharpIcon} inline={true} className="bodyIcon" />C#</li>
                 <li><Icon icon={dartIcon} inline={true} className="bodyIcon" />Dart</li>
@@ -76,11 +108,11 @@ export default function Body({ language }){
             </motion.div>
           </div>
           <motion.div variants={bodyVariant}>
-            <h5 className="titles">Outras</h5>
+            <h5 className="titles">{language.resume.body.skills.technic.others}</h5>
             <ul className="list-inside">
-              <li><Icon icon={microsoftwordIcon} inline={true} className="bodyIcon" />Word: Intermediário</li>
-              <li><Icon icon={microsoftpowerpointIcon} inline={true} className="bodyIcon" />power Point: Intermediário</li>
-              <li><Icon icon={englishIcon} inline={true} className="bodyIcon" />Inglês: Intermediário</li>
+              <li><Icon icon={microsoftwordIcon} inline={true} className="bodyIcon" />Word: {language.resume.body.skills.levels.intermediate}</li>
+              <li><Icon icon={microsoftpowerpointIcon} inline={true} className="bodyIcon" />power Point: {language.resume.body.skills.levels.intermediate}</li>
+              <li><Icon icon={englishIcon} inline={true} className="bodyIcon" />Inglês: {language.resume.body.skills.levels.intermediate}</li>
             </ul>
           </motion.div>
         </div>

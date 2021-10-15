@@ -51,7 +51,44 @@ export const lang = {
       },
       body: {
         about: "Sobre mim",
-        aboutText: ""
+        aboutText: "Sou um programador com as principais habilidades voltadas ao desenvolvimento para a web com javascript, porém, também com habilidades necessárias para o trabalho com aplicações desktop com Java ou Python.",
+        experience: {
+          title: "Experiência profissional",
+          arr: [
+            "Nenhuma experiência profissional até o momento"
+          ]
+        },
+        skills: {
+          hard: {
+            title: "Habilidades principais",
+            arr: [
+              "Programação para web",
+              "Programação desktop",
+              "Programação para servidores",
+              "Criativo",
+              "Proativo",
+            ]
+          },
+          soft:{
+            title: "Habilidades interpessoais",
+            arr: [
+              "Organização",
+              "Trabalho em equipe",
+              "Adaptabilidade"
+            ]
+          },
+          technic:{
+            title: "Habilidades técnicas",
+            technologies: "Conhecimento avançado",
+            basic: "Conhecimento básico",
+            others: "Outros"
+          },
+          levels:{
+            basic: "básico",
+            intermediate: "intermediário",
+            advanced: "avançado"
+          }
+        }
       }
     },
     footer: {
@@ -103,7 +140,53 @@ export const lang = {
         <br />
         You will be redirected to the home page on shelves
       </p>
-    ),
+    ), resume: {
+      profile: {
+        education: "Education",
+        educationText: "Attending Technical High School in Systems Development at Etec da Zona Leste"
+      },
+      body: {
+        about: "About me",
+        aboutText: "I am a programmer with the main skills aimed at web development with javascript, but also with the necessary skills to work with desktop applications with Java or Python.",
+        experience: {
+          title: "Professional experience",
+          arr: [
+            "No professional experience"
+          ]
+        },
+        skills: {
+          hard: {
+            title: "Hard skills",
+            arr: [
+              "Web development",
+              "Desktop development",
+              "Server development",
+              "Criative",
+              "Proactive",
+            ]
+          },
+          soft:{
+            title: "Soft skills",
+            arr: [
+              "Organization",
+              "Team work",
+              "Adaptability"
+            ]
+          },
+          technic:{
+            title: "Technical habilities",
+            technologies: "Main technologies",
+            basic: "Basic technologies",
+            others: "others"
+          },
+          levels:{
+            basic: "basic",
+            intermediate: "intermediate",
+            advanced: "advanced"
+          }
+        }
+      }
+    },
     footer: {
       by: "by",
       contact: "contact"
